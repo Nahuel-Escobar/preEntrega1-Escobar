@@ -1,0 +1,28 @@
+a {
+    position: relative;
+
+    & i {
+        font-size: 1rem;
+        color: white;
+        margin-right: 2rem;
+        transition: all .4s ease;
+        cursor: pointer;
+    
+        &:hover {
+            color: rgb(36, 225, 36);
+        }
+    }
+
+    & span {
+        position: absolute;
+        top: -40%;
+        left: 40%;
+        background: rgb(80, 80, 80);
+        font-size: 0.75rem;
+        font-weight: bold;
+        border-radius: 50%;
+        color: white; 
+        padding: 2.5px;
+    }
+}
+

@@ -1,0 +1,34 @@
+main {
+    & section {
+        text-align: center;
+        & h2{
+            display: inline-block;
+            margin: 0 auto;
+            margin-top: 2rem;
+            font-size: 2rem;
+            color: rgb(83, 202, 83);
+            font-weight: 900;
+            animation: destacar 2.3s infinite alternate ease;
+            cursor: pointer;
+
+            @keyframes destacar {
+                0% {
+                    color: rgb(83, 202, 83);
+                }
+
+
+
+                50% {
+                    color: rgb(39, 49, 132);
+                }
+
+
+                100% {
+                    color: rgb(83, 202, 83);
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
